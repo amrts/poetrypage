@@ -6,7 +6,7 @@ let Poemmm =()=>
   useEffect(()=>
   {
     const afuns = async ()=>{
-      let res=await fetch('/loadit.txt');
+      let res=await fetch('/poetrypage/loadit.txt');
       let data = await res.text();
       s(data);
     }
