@@ -6,7 +6,7 @@ let Sheher =()=>
   useEffect(()=>
   {
     const afuns = async ()=>{
-      let res=await fetch('/Sheher.txt');
+      let res=await fetch('/poetrypage/Sheher.txt');
       let data = await res.text();
       s(data);
     }

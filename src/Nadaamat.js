@@ -6,7 +6,7 @@ let Nadaamat =()=>
   useEffect(()=>
   {
     const afuns = async ()=>{
-      let res=await fetch('/Nadaamat.txt');
+      let res=await fetch('/poetrypage/Nadaamat.txt');
       let data = await res.text();
       s(data);
     }

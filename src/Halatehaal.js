@@ -6,7 +6,7 @@ let Halatehaal =()=>
   useEffect(()=>
   {
     const afuns = async ()=>{
-      let res=await fetch('/Halatehaal.txt');
+      let res=await fetch('/poetrypage/Halatehaal.txt');
       let data = await res.text();
       s(data);
     }

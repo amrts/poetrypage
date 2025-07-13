@@ -6,7 +6,7 @@ let Coffee =()=>
   useEffect(()=>
   {
     const afuns = async ()=>{
-      let res=await fetch('/Coffee.txt');
+      let res=await fetch('/poetrypage/Coffee.txt');
       let data = await res.text();
       s(data);
     }

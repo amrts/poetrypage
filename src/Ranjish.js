@@ -6,7 +6,7 @@ let Ranjish =()=>
   useEffect(()=>
   {
     const afuns = async ()=>{
-      let res=await fetch('/Ranjish.txt');
+      let res=await fetch('/poetrypage/Ranjish.txt');
       let data = await res.text();
       s(data);
     }
